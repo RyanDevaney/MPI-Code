@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
                
               }
        timeAvg = timeAvg / 1000;
-       cout << timeAvg << endl;
+       cout << "Time taken to Ping Pong data: " << timeAvg << endl;
       }
     else
         {
