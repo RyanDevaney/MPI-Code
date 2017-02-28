@@ -12,7 +12,6 @@ int main(int argc, char *argv[])
     double time;
     double firstTime,secondTime;
     MPI_Status status;
-    MPI_Request request;
 
     MPI_Init(&argc, &argv);
     MPI_Comm_rank(MPI_COMM_WORLD, &myrank);
