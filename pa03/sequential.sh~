@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#SBATCH -n1
+#SBATCH --time=00:5:00
+#SBATCH --output=out/sequential.out
+
+srun sequential data.txt
